@@ -25,6 +25,7 @@ components:
       - {id: JKSDUP, title: x, data_key: column_1}
       - {id: VJQQOR, title: y, data_key: column_2}
       - {id: OJLQEN, title: z, data_key: column_3}
+      - {id: XTCTGW, data_key: column_1, title: order}
     type: DataGrid
     components:
     - name: repeating_panel_orientations
