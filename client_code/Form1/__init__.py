@@ -10,7 +10,7 @@ class Form1(Form1Template):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-    
+    print("welcome")
     self.repeating_panel_orientations.items = anvil.server.call('get_orientations')
 
     # Any code you write here will run before the form opens.
@@ -23,4 +23,4 @@ class Form1(Form1Template):
         y=[0, 1, 4, 9, 16],
       )
     )
-    self.grid_panel_1.add_component(new_plot, width_xs=6)
+    #self.grid_panel_1.add_component(new_plot, width_xs=6)
