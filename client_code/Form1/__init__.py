@@ -10,6 +10,7 @@ class Form1(Form1Template):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
+    
     self.repeating_panel_orientations.items = anvil.server.call('get_orientations')
 
     # Any code you write here will run before the form opens.
